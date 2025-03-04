@@ -4,7 +4,7 @@ import static swervelib.telemetry.SwerveDriveTelemetry.canIdWarning;
 import static swervelib.telemetry.SwerveDriveTelemetry.i2cLockupWarning;
 import static swervelib.telemetry.SwerveDriveTelemetry.serialCommsIssueWarning;
 
-import com.revrobotics.SparkRelativeEncoder.Type;
+import com.revrobotics.*;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.I2C;
 import edu.wpi.first.wpilibj.SPI;
